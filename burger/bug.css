@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: rgba(87, 26, 0, 1);
+}
+
+body {
+  background-image: url(background.png);
+  background-size: 100%;
+  height: 100vh;
+  width: 100%;
+  /* background-color: yellow; */
+}
+header {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 80%;
+}
+ul {
+  color: rgba(87, 26, 0, 1);
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  text-transform: capitalize;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 70px);
+}
+h1 {
+  font-size: 60px;
+  text-transform: capitalize;
+  color:  rgba(87, 26, 0, 1);
+}
+span {
+  font-size: 65px;
+  font-weight: bold;
+}
+p {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 7px;
+  word-spacing: 3px;
+  width: 70%;
+  color: rgba(87, 26, 0, 1);
+  margin-top: 5px;
+}
+.logo img {
+  width: 60px;
+}
+/* .burger img {
+  width: 600px;
+} */
+
+.bite {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 60%; 
+}
+.bite_container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1020px;
+  height: 60%;
+}
+.burger {
+  width: 40%; 
+}
+.burger .img-burger {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+}
+.container {
+  width: 80%;
+  display: flex;
+  height: 80%;
+}
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-transform: capitalize;
+}
+.btn1,
+.btn3 {
+  background-color: rgba(87, 26, 0, 1);
+  color: white;
+  border: none;
+}
+.btn2,
+.btn4 {
+  background-color: transparent;
+  border: 1px solid rgba(87, 26, 0, 1);
+  color: rgba(87, 26, 0, 1);
+}
+#Button {
+  margin-top: 40px;
+}
